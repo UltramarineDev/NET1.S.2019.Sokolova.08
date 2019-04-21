@@ -1,4 +1,4 @@
-0. ќб€зательно просмотреть видео по теме Exception Handling
+0. ќб€зательно просмотреть видео по теме Exception Handling - done
 
 1. Done. Implemented pattern Decorator (NumbersManipulations - GCDNew3.cs, AssemblyForTask1Day8 - GCDNew3Decorator.cs - <a href="https://github.com/UltramarineDev/NET.S.2019.Sokolova.03"> see in Day3</a>)
 
@@ -18,7 +18,7 @@ c реализацией в виде классов EuclideanGcdAlgorithm и BinaryGcdAlgorithm (доступ 
  - в пор€дке возрастани€(убывани€) минимальных элементов ее строк.
 –азработать unit-тесты.
 
-3. (deadline - 07.04.2019 24.00)
+3. (deadline - 07.04.2019 24.00) - done
  - –азработать класс Book (ISBN, автор, название, издательство, год издани€, количество страниц, цена), переопределив дл€ него необходимые методы класса Object. ƒл€ объектов класса реализовать отношени€ эквивалентности и пор€дка (использу€ соответствующие интерфейсы).
 
   public class Book : IEquatable<Book>, IComparable<Book>
@@ -37,6 +37,7 @@ public interface IBookListStorage
 	}
  - ¬ качестве хранилища пока использовать FakeBookListStorage как обертку дл€ списка книг, который хранитс€ в пам€ти ("in memory dataset"). ƒанное хранилище пока используетс€ дл€ целей тестировани€. ¬ дальнейшем хранилище будет измен€тьс€.
 
- - (deadline - 08.04.2019 24.00) ѕродемонстрировать возможности работы с системой типов в ASP.NET MVC приложении.
+ - (deadline - 08.04.2019 24.00) - done
+ѕродемонстрировать возможности работы с системой типов в ASP.NET MVC приложении.
 
 4. –епозиторий вопросов и ответов 

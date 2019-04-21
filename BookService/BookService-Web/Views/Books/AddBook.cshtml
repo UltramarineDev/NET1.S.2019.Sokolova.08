@@ -1,0 +1,39 @@
+﻿<h2>Enter book details</h2>
+<div>
+    <h4 class="happy">@ViewBag.Response</h4>  
+</div>
+<form action="~/Books/Submit" method="post">
+    <div class="container-form">
+        <div>
+            <h3>Author</h3>
+            <input id="authorName" name="Author" placeholder="Рихтер Джеффри" />
+        </div>
+        <div>
+            <h3>ISBN</h3>
+            <input id="ISBN" name="ISBN" placeholder="978-5-496-00-433-6" />
+        </div>
+        <div>
+            <h3>Title</h3>
+            <input id="Title" name="Title" placeholder="CLR via C#" />
+        </div>
+        <div>
+            <h3>PageCount</h3>
+            <input id="PageCount" name="PageCount" placeholder="896" />
+        </div>
+        <div>
+            <h3>Price</h3>
+            <input id="Price" name="Price" placeholder="80" />
+        </div>
+        <div>
+            <h3>Publication year</h3>
+            <input id="PublicationYear" name="PublicationYear" placeholder="2014" />
+        </div>
+        <div>
+            <h3>Publishing Office</h3>
+            <input id="PublishingOffice" name="PublishingOffice" placeholder="Питер" />
+        </div>
+    </div>
+
+    <button type="submit">SUBMIT</button>
+</form>
+
