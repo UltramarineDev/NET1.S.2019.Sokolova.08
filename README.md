@@ -1,8 +1,10 @@
-0. Обязательно просмотреть видео по теме Exception Handling - done
+All done
 
-1. Done. Implemented pattern Decorator (NumbersManipulations - GCDNew3.cs, AssemblyForTask1Day8 - GCDNew3Decorator.cs - <a href="https://github.com/UltramarineDev/NET.S.2019.Sokolova.03"> see in Day3</a>)
+1.(deadline - 05.04.2019, 24.00) ("3-ий перезапуск" НОД-а) 
 
-(deadline - 05.04.2019, 24.00) ("3-ий перезапуск" НОД-а) Есть унификация алгоритма нахождения НОД-а для двух целочисленных значений в виде интерфейса
+DONE.(NumbersManipulations - GCDNew3.cs, AssemblyForTask1Day8 - GCDNew3Decorator.cs - <a href="https://github.com/UltramarineDev/NET.S.2019.Sokolova.03"> see in Day3</a>)
+
+Есть унификация алгоритма нахождения НОД-а для двух целочисленных значений в виде интерфейса
 
   public interface IGcdAlgorithm
   {
@@ -11,7 +13,10 @@
 
 c реализацией в виде классов EuclideanGcdAlgorithm и BinaryGcdAlgorithm (доступ к коду классов для их измения не возможен, назовем эту сборку условно #1.dll). Предложить варианты расширения функциональности существующих (и новых) алгоритмов вычисления НОД-а, предлагающие возможность при вычислении определять показания времени работы алгоритма, рассмотреть возможность настройки алгоритма в контексте предоставления различных реализаций измерения времени.(Решения поместить в сборку #2.dll). 
 
-2. (deadline - 06.04.2019 24.00) - done. See in <a href="https://github.com/UltramarineDev/NET.S.2019.Sokolova.07/tree/master/ArrayManipulations">Day7</a>
+
+2. (deadline - 06.04.2019 24.00) 
+DONE. See in <a href="https://github.com/UltramarineDev/NET.S.2019.Sokolova.07/tree/master/ArrayManipulations">Day7</a>
+
 Добавить в статический класс ArrayExtension (Day 7) метод расширения для сортировки непрямоугольного ("jagged") целочисленного массива (матрицы) таким образом, чтобы была возможность, в частности, упорядочить строки матрицы:
 
  - в порядке возрастания(убывания) сумм элементов ее строк;
@@ -20,6 +25,7 @@ c реализацией в виде классов EuclideanGcdAlgorithm и BinaryGcdAlgorithm (доступ 
 Разработать unit-тесты.
 
 3. (deadline - 07.04.2019 24.00) - done
+
  - Разработать класс Book (ISBN, автор, название, издательство, год издания, количество страниц, цена), переопределив для него необходимые методы класса Object. Для объектов класса реализовать отношения эквивалентности и порядка (используя соответствующие интерфейсы).
 
   public class Book : IEquatable<Book>, IComparable<Book>
@@ -36,9 +42,8 @@ public interface IBookListStorage
 	    IEnumerable<Book> LoadBooks();
 	    void SaveBooks(IEnumerable<Book> books);
 	}
+
  - В качестве хранилища пока использовать FakeBookListStorage как обертку для списка книг, который хранится в памяти ("in memory dataset"). Данное хранилище пока используется для целей тестирования. В дальнейшем хранилище будет изменяться.
 
  - (deadline - 08.04.2019 24.00) - done
 Продемонстрировать возможности работы с системой типов в ASP.NET MVC приложении.
-
-4. Репозиторий вопросов и ответов - add answer for one question
