@@ -7,7 +7,7 @@
   }
  ```
 c реализацией в виде классов EuclideanGcdAlgorithm и BinaryGcdAlgorithm (доступ к коду классов для их измения не возможен, назовем эту сборку условно #1.dll). Предложить варианты расширения функциональности существующих (и новых) алгоритмов вычисления НОД-а, предлагающие возможность при вычислении определять показания времени работы алгоритма, рассмотреть возможность настройки алгоритма в контексте предоставления различных реализаций измерения времени.(Решения поместить в сборку #2.dll). <br/>
-go to [Day 3] (https://github.com/UltramarineDev/NET.S.2019.Sokolova.03)
+go to [Day 3](https://github.com/UltramarineDev/NET.S.2019.Sokolova.03)
 NumbersManipulations - GCDNew3.cs, AssemblyForTask1Day8 - GCDNew3Decorator.cs
 <br/><br/>
 :heavy_check_mark: 2.(deadline - 06.04.2019 24.00) Добавить в статический класс ArrayExtension (Day 7) метод расширения для сортировки непрямоугольного ("jagged") целочисленного массива (матрицы) таким образом, чтобы была возможность, в частности, упорядочить строки матрицы:
@@ -16,7 +16,7 @@ NumbersManipulations - GCDNew3.cs, AssemblyForTask1Day8 - GCDNew3Decorator.cs
 - в порядке возрастания(убывания) минимальных элементов ее строк.
 Разработать unit-тесты.<br/>
 
-go to [Day 7](https://github.com/UltramarineDev/NET.S.2019.Sokolova.07/tree/master/ArrayManipulations)<br/><br/>
+go to [Day 7](https://github.com/UltramarineDev/NET1.S.2019.Sokolova.07/blob/master/ArrayManipulations/ArrayExtension.cs) JaggedSort method<br/><br/>
 :heavy_check_mark: 3.(deadline - 07.04.2019 24.00)<br/>
 - Разработать класс Book (ISBN, автор, название, издательство, год издания, количество страниц, цена), переопределив для него необходимые методы класса Object. Для объектов класса реализовать отношения эквивалентности и порядка (используя соответствующие интерфейсы).
 ```
