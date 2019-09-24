@@ -1,7 +1,12 @@
 ﻿<h2>Enter book details</h2>
 <div>
-    <h4 class="happy">@ViewBag.Response</h4>  
+    <h4 class="happy">@ViewBag.Response</h4>
 </div>
+
+<div class="homelink">
+    <a href="~/Books/Index">go to home page</a>
+</div>
+
 <form action="~/Books/Submit" method="post">
     <div class="container-form">
         <div>
@@ -34,6 +39,6 @@
         </div>
     </div>
 
-    <button type="submit">SUBMIT</button>
+    <button type="submit" class="buttons add">SUBMIT</button>
 </form>
 
